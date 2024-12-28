@@ -34,3 +34,4 @@ export const winstonLogger = (elasticsearchNode: string, name: string, level: st
   });
   return logger;
 }
+// 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
