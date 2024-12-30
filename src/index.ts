@@ -14,6 +14,7 @@ export {
     IAuthResponse,
     IAuthUser,
 } from './auth.interface';
+export {IEmailLocals} from './email.interface';
 export { IBuyerDocument, IReduxBuyer } from './buyer.interface';
 export {
   IConversationDocument,
