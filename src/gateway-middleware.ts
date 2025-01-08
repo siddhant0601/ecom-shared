@@ -16,5 +16,6 @@ export function verifyGatewayRequest(req: Request , _res:Response , next: NextFu
     catch (error) {
         throw new NotAuthorizedError('Invalid request', 'verifyGatewayRequest() method: Request not coming from api gateway');
     }
+    next();
 
 }
